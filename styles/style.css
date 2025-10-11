@@ -88,7 +88,7 @@ body {
     word-break: break-all;
 }
 
-.jambatron {
+.cover {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -98,11 +98,7 @@ body {
     background-position: center;
 }
 
-.cover {
-    left: 0;
-    top: 0;
-    height: 100%;
-}
+
 
 .blackout {
     background-color: black;
@@ -136,14 +132,6 @@ body {
     justify-content: flex-start;
 }
 
-.textAlignLeftSpan {
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 115px;
-    letter-spacing: 0.6em;
-    text-align: left;
-}
-
 .textAlignCenter {
     font-size: 100px;
     font-weight: 700;
@@ -152,37 +140,13 @@ body {
     text-align: center;
 }
 
-.textAlignCenterSpan {
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 100px;
-    letter-spacing: 0.6em;
-    text-align: left;
-}
-
 .textAlignRight {
     justify-content: end;
     font-size: 100px;
     font-weight: 700;
     line-height: 100px;
-    letter-spacing: 0.6em;
-    text-align: end;
-}
-
-.letterSpacing {
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 100px;
     letter-spacing: 0.3em;
-    text-align: right;
-}
-
-.noneLetterSpacing {
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 100px;
-    text-align: right;
-    letter-spacing: 0;
+    text-align: end;
 }
 
 .jambatronBottom {
