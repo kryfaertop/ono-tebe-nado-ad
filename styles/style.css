@@ -1,1 +1,398 @@
-/* место для вашего кода */
+
+body {
+    font-weight: 400;
+}
+
+.header {
+    margin: 92px 24px 96px 24px;
+}
+
+.headerNav {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr auto 1fr;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 46px 40px 39px 26px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.menuButtonMain .menuButton {
+    text-decoration: none;
+}
+
+.menuButtonLots {
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    border-bottom: 1px solid black;
+    list-style: circle;
+}
+
+.menuButtonLots .menuButton {
+    text-decoration: none;
+}
+
+.menuButtonAbout {
+    letter-spacing: 0.01em;
+    border-bottom: 1px solid black;
+    list-style: circle;
+}
+
+.menuButtonAbout .menuButton {
+    text-decoration: none;
+}
+
+.logoBlack {
+    display: flex;
+    align-items: center;
+    width: 137px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    justify-self: end;
+    font-size: 18px;
+    font-style: normal;
+    margin-right: 25px;
+    padding-top: 8px;
+    line-height: 23px;
+}
+
+.info .numberInfo {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    width: fit-content;
+}
+
+.info .mailInfo {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    width: fit-content;
+}
+
+.addressInfo {
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    margin-right: 28px;
+    word-break: break-all;
+}
+
+.jambatron {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 50px;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.cover {
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.blackout {
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    z-index: 0;
+}
+
+.textJambatron {
+    display: flex;
+    color: white;
+    justify-content: center;
+    list-style-type: none;
+    text-transform: uppercase;
+    flex-direction: column;
+    margin-top: 115px;
+    margin-bottom: 136px;
+    gap: 20px;
+    z-index: 1;
+}
+
+.textAlignLeft {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    letter-spacing: 0.3em;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.textAlignLeftSpan {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    letter-spacing: 0.6em;
+    text-align: left;
+}
+
+.textAlignCenter {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.3em;
+    text-align: center;
+}
+
+.textAlignCenterSpan {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6em;
+    text-align: left;
+}
+
+.textAlignRight {
+    justify-content: end;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6em;
+    text-align: end;
+}
+
+.letterSpacing {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.3em;
+    text-align: right;
+}
+
+.noneLetterSpacing {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: right;
+    letter-spacing: 0;
+}
+
+.jambatronBottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-self: end;
+    align-items: center;
+    z-index: 1;
+}
+
+.sublime {
+    color: white;
+    display: flex;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: 28px;
+    word-spacing: 19px;
+}
+
+.jambatronButton {
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid white;
+    padding: 11px 32px 11px 30px;
+    text-decoration: none;
+}
+
+.lots {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 179px;
+}
+
+.titleLots {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-bottom: 27px;
+}
+.article {
+    padding: 51px 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lotsBlock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.lotsGeneral {
+    position: relative;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    max-width: 334px;
+    min-height: 563px;
+    flex-grow: 1;
+}
+
+.card {
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.leftCard {
+    background-image: url("../images/card-lot-01.jpg");
+}
+
+.lotTitle {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.lotText {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    z-index: 2;
+}
+
+.centerCard {
+    background-image: url("../images/card-lot-02.jpg");
+}
+
+.rightCard {
+    background-image: url("../images/card-lot-03.jpg");
+}
+
+.lots .moreInfo {
+    text-decoration: none;
+}
+
+.moreInfo {
+    margin-left: 40px;
+    margin-top: 28px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    width: fit-content;
+}
+
+.about {
+    display: flex;
+    margin-top: 147px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.logoWhiteDiv {
+    background-color: black;
+    border-radius: 50%;
+    min-width: 240px;
+    height: 240px;
+    margin-top: 35px;
+    margin-left: 47px;
+}
+
+.logoWhiteWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 46px;
+}
+
+.aboutColumn {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    margin-top: 134px;
+    margin-left: 72px;
+}
+
+.textTitleAbout {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.textAbout {
+    display: grid;
+    gap: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer {
+    margin: 180px 50px 88px;
+}
+
+.footerNavigation {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr auto 1fr;
+}
+
+footer .info {
+    justify-self: start;
+    justify-content: center;
+    margin-top: 0;
+    padding: 0;
+    line-height: 24px;
+}
+
+.menuFooter {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.menuFooter .menuFooterButton {
+    text-decoration: none;
+}
+
+.menuFooter .menuFooterUnderline {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.footerSocials {
+    list-style-type: none;
+    display: flex;
+    margin-left: 185px;
+    margin-bottom: 50px;
+    gap: 48px;
+    justify-self: end;
+}
+
