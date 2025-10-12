@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    margin: 92px 24px 96px 24px;
+    margin: 92px 24px 96px;
 }
 
 .headerNav {
@@ -15,40 +15,27 @@ body {
 
 .menu {
     display: flex;
-    list-style-type: none;
-    margin: 46px 40px 39px 26px;
     align-items: center;
+    justify-content: space-between;
+    margin: 46px 40px 39px 26px;
+
+    list-style: circle;
     font-size: 18px;
     font-weight: 400;
     line-height: 18px;
-    text-align: left;
-    justify-content: space-between;
-}
-
-.menuButtonMain .menuButton {
-    text-decoration: none;
-}
-
-.menuButtonLots {
-    font-size: 18px;
     letter-spacing: 0.01em;
-    border-bottom: 1px solid black;
-    list-style: circle;
+
+    text-underline-offset: 4px;
 }
 
-.menuButtonLots .menuButton {
+.menuButtonMain {
+    list-style: none;
+}
+
+.menuButtonMain a {
     text-decoration: none;
 }
 
-.menuButtonAbout {
-    letter-spacing: 0.01em;
-    border-bottom: 1px solid black;
-    list-style: circle;
-}
-
-.menuButtonAbout .menuButton {
-    text-decoration: none;
-}
 
 .logoBlack {
     display: flex;
