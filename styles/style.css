@@ -7,13 +7,14 @@ body {
     margin: 92px 24px 96px;
 }
 
-.headerNav {
+.header__menu {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr auto 1fr;
 }
 
-.menu {
+/* Список меню */
+.header__links-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,58 +23,47 @@ body {
     list-style: circle;
     font-size: 18px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 1;
     letter-spacing: 0.01em;
 
     text-underline-offset: 4px;
 }
 
-.menuButtonMain {
+/* Первый пункт меню — без маркера */
+.header__links-list-item_no-bullit {
     list-style: none;
 }
 
-.menuButtonMain a {
+/* Первая ссылка без подчёркивания */
+.header__links-list-item_no-bullit a {
     text-decoration: none;
 }
 
-
-.logoBlack {
+/* Логотип */
+.header__logo-image {
     display: flex;
     align-items: center;
     width: 137px;
 }
 
-.info {
+/* Контактная информация */
+.address {
     display: flex;
     flex-direction: column;
-    max-width: 240px;
     justify-self: end;
-    font-size: 18px;
-    font-style: normal;
+    max-width: 240px;
     margin-right: 25px;
     padding-top: 8px;
-    line-height: 23px;
+
+    font-size: 18px;
+    line-height: 1.28; /* эквивалентно 23px при font-size: 18px */
+    font-style: normal;
+
+    text-underline-offset: 4px;
 }
 
-.info .numberInfo {
-    text-decoration: none;
-    border-bottom: 1px solid black;
-    width: fit-content;
-}
 
-.info .mailInfo {
-    text-decoration: none;
-    border-bottom: 1px solid black;
-    width: fit-content;
-}
 
-.addressInfo {
-    display: flex;
-    margin-top: 1px;
-    margin-bottom: 2px;
-    margin-right: 28px;
-    word-break: break-all;
-}
 
 .cover {
     display: flex;
