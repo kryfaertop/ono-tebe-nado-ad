@@ -70,7 +70,7 @@ body {
   background-position: center;
 }
 
-.blackout {
+.over {
   background-color: black;
   opacity: 0.6;
   position: absolute;
@@ -80,7 +80,7 @@ body {
   z-index: 0;
 }
 
-.textJambatron {
+.covertext {
   display: flex;
   color: white;
   justify-content: center;
@@ -102,7 +102,6 @@ body {
   line-height: 115px;
 }
 
-/* Настройка расстояний вручную */
 .textAlignLeft {
   margin-right: 714px;
 }
@@ -116,7 +115,7 @@ body {
   margin-left: 613px;
 }
 
-.jambatronBottom {
+.coverbottom {
   position: absolute;
   display: flex;
   
@@ -135,7 +134,7 @@ body {
   word-spacing: 19px;
 }
 
-.jambatronButton {
+.buttoncover {
   color: white;
   font-size: 22px;
   text-transform: uppercase;
